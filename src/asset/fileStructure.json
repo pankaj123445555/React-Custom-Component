@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "name": "root",
+            "type": "folder",
+            "id": "1",
+            "children": [
+                {
+                    "name": "Documents",
+                    "type": "folder",
+                    "id": "2",
+                    "children": [
+                        {
+                            "name": "Resume.pdf",
+                            "type": "file",
+                            "id": "3"
+                        },
+                        {
+                            "name": "CoverLetter.docx",
+                            "type": "file",
+                            "id": "4"
+                        }
+                    ]
+                },
+                {
+                    "name": "Images",
+                    "type": "folder",
+                    "id": "5",
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

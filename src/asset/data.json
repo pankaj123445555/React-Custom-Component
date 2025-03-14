@@ -1,0 +1,81 @@
+{
+
+  "user": {
+  
+      "id": 1,
+  
+      "name": "John",
+  
+      "address": {
+  
+          "city": "New York",
+  
+          "zipcode": {
+  
+              "prefix": 100,
+  
+              "suffix": 1
+  
+          }
+  
+      },
+  
+      "preferences": {
+  
+          "notifications": {
+  
+              "email": true,
+  
+              "sms": false
+  
+          },
+  
+          "theme": "dark"
+  
+      }
+  
+  },
+  
+  "posts": [
+  
+      {
+  
+          "id": 101,
+  
+          "title": "Hello World",
+  
+          "comments": [
+  
+              {
+  
+                  "user": "Alice",
+  
+                  "message": "Nice post!"
+  
+              },
+  
+              {
+  
+                  "user": "Bob",
+  
+                  "message": "I agree!"
+  
+              }
+  
+          ]
+  
+      },
+  
+      {
+  
+          "id": 102,
+  
+          "title": "Deep Dive",
+  
+          "comments": []
+  
+      }
+  
+  ]
+  
+  }

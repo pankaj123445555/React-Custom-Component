@@ -1,0 +1,16 @@
+.side-bar-list-cnt{
+    display: flex;
+    flex-direction: column;
+}
+.item-name{
+   font-size: 20px;
+   font-family: sans-serif;
+   font-weight: 500;
+   cursor: pointer;
+}
+.icon-cnt{
+    cursor: pointer;
+}
+.active{
+    color: blue;
+}

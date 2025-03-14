@@ -1,0 +1,46 @@
+.otp-cnt{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 5px;
+}
+.otp-list{
+    display: flex;
+}
+.otp-input{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-right: 4px;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .btn-cnt{
+    margin-top: 15px;
+  }
+  .submit-btn{
+    width: 80px;
+    height: 35px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }

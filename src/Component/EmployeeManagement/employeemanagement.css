@@ -1,0 +1,33 @@
+.employee-cnt{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+    padding: 20px;
+}
+.btn-cnt{
+    display: flex;
+    justify-content: flex-end;
+}
+.add-employee-btn{
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.employee-list-details-cnt{
+    display: flex;
+}
+.selected-employee{
+    margin-left: 20px;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

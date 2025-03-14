@@ -1,0 +1,25 @@
+.file-cnt{
+    display: flex;
+    width: 304px;
+    height: 33px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.file-name{
+    font-size: 20px;
+    font-weight: 500;
+}
+.create-btn{
+    padding: 8px;
+    cursor: pointer;
+}
+.file-btn{
+    margin-left: 8px;
+}
+.sub-files{
+    margin-left: 10px;
+}

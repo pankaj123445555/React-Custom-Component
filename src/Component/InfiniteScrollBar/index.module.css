@@ -1,0 +1,37 @@
+.main-cnt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infinite-scroll-parent-cnt{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.infinite-scroll-cnt{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.img-cnt{
+    width: 199px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.img-cnt img{
+    width: 100%;
+    height: 100%;
+    
+}
+.loader-cnt{
+    display: flex;
+    justify-content: center;
+}

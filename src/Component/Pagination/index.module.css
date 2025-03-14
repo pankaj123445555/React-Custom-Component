@@ -1,0 +1,42 @@
+.pagination-cnt{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prev-btn{
+    margin-right: 12px;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+.next-btn-cnt{
+    margin-left: 12px;
+}
+.page-text-cnt{
+    display: flex;
+}
+.page{
+    margin-right: 8px;
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.active-page{
+   
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+   
+}
