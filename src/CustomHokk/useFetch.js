@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import { useState,useEffect } from "react";
 
 const useFetch = (url) => {
@@ -26,3 +26,5 @@ const useFetch = (url) => {
   };
 
   export default useFetch;
+
+  

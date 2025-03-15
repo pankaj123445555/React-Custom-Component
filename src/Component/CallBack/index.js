@@ -1,21 +1,24 @@
-import React , {useRef} from "react";
+import React , {useReducer, useState} from "react";
 import styles from "./index.module.css";
+import { counterReducer } from "../../Reducers/CounterReducer";
 
 const Callback = ()=>{
 
-    const inputRef = useRef();
+   
+   const [state,dispatch] = useReducer(counterReducer,{count:0});
+   console.log('does the component re-render');
+
+   const handleIncrement = () =>{
+       dispatch({type: "increment"})
+   }
+
     return (
         <div className={styles["callBack-cnt"]}>
-            <div>
-            <input value={0} ref={inputRef} name="name" type="text"/>
-            </div>
-            <div>
-                <button onClick={()=> console.log(inputRef.current.value)}>
-                    Focus - 
-                </button>
-            </div>
+             <button onClick={()=>handleIncrement()} className={styles["counter-btn"]}>
+                Count - {state.count}
+             </button>
         </div>
     )
 }
 
-export default Callback;
+export default Callback; 

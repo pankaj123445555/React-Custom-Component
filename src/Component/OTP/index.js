@@ -38,10 +38,6 @@ const Otp = () =>{
             {
                 return;
             }
-        console.log('does otp chnage calls');
-    //  write an code that handle all the case
-    let otpLength = 6;
-
     const updatedOtpItemArray = otpInput.map((otp,index)=>{
         if(otp.id===otpItem.id)
             {
@@ -79,7 +75,6 @@ const Otp = () =>{
         // console.log(e,otpItem);
        if(e.key==="Backspace")
         {
-    
            handleBackSpace(e.target.value,otpItem)
         }
     }
