@@ -1,0 +1,8 @@
+.tab-parent-cnt{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.tab-data-cnt{
+    margin-top: 12px;
+}

@@ -1,0 +1,19 @@
+.tab-list-cnt{
+    display: flex;
+}
+.each-tab{
+    margin-right: 5px;
+}
+.each-tab button{
+    width: 60px;
+    height: 25px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.active{
+    background-color: blue;
+    color: white;
+}
