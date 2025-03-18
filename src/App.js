@@ -12,6 +12,8 @@ import PasswordGenerator from './Component/PasswordGenerator';
 import CustomHook from './Component/CustomHook';
 import Callback from './Component/CallBack';
 import Otp from './Component/OTP';
+import ProgressBar from './Component/ProgressBar';
+import Tabs from './Component/Tabs';
 
 
 function App() {
@@ -30,6 +32,8 @@ function App() {
         <Route path='/custom-hook' element ={<CustomHook/>}/>
         <Route path='call-back' element = {<Callback/>}/>
         <Route path='/otp' element = {<Otp/>}/>
+        <Route path='/progress-bar' element = {<ProgressBar/>}/>
+        <Route path='/tabs' element = {<Tabs/>}/>
       </Routes>
     </div>
   );

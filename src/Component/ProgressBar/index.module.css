@@ -1,0 +1,20 @@
+.progress-bar-parent-cnt{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+.progress-bar-upper-cnt{
+    display: flex;
+    width: 900px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.progress-bar-inner-cnt{
+    background-color: rgb(27, 215, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
