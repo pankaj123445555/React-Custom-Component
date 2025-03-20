@@ -6,3 +6,12 @@
 .tab-data-cnt{
     margin-top: 12px;
 }
+.submit-btn{
+    width: 70px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+}

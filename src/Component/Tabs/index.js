@@ -5,6 +5,9 @@ import { TabData } from "../../asset/Tab";
 import TabList from "./TabList";
 import TabDataComponent from "./TabData";
 
+import Button from "../../customComponent/Button";
+
+
 const Tabs = () =>{
     const [data,setData] = useState("");
     const [AllTabs,setAllTabs] = useState(TabData);
@@ -27,6 +30,11 @@ const Tabs = () =>{
        })
        setAllTabs(updatedTab);
     }
+
+    const calculateSum = (x,y) =>{
+        console.log('is it called',x+y);
+    }
+    
     return (
         <div className={styles["tab-parent-cnt"]}>
             <div>
@@ -36,6 +44,15 @@ const Tabs = () =>{
                 <div className={styles["tab-data-cnt"]}>
               <TabDataComponent data = {data}/>
                 </div>
+            </div>
+            <div>
+                <Button
+                customClass = {styles["submit-btn"]}
+                text = "Submit"
+                onFunctionCall = {() => calculateSum(2,3)}
+                >
+                <span>Hello Brother</span>
+                </Button>
             </div>
         </div>
     )
